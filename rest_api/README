@@ -1,8 +1,4 @@
-Mierlich Daniel 323CB
-
-La implementarea temei am folosi multe functii si fisiere din laboratorul 10(http).
-Sa spus si pe forum ca avem voie sa folosim! Codul scris de mine este doar in fisierul
-client.c. In functia main in while citesc comenzi de la stdin si apelez comanda respectiva.
+In functia main in while citesc comenzi de la stdin si apelez comanda respectiva.
 Functiile principale de cereri de la server sunt compute_post_request() si
 compute_get_request().
 Am implementat ca un client poate sa dea login fara sa sa registreze deoarece poate
@@ -14,5 +10,3 @@ M-am gandit ca e o idee mai buna sa verific cazurile de erori in program fara sa
 serverul de ex. pentru add_book am flagul acces_biblioteca daca el este 1 atunci pot sa
 adaug carte. Pentru tratarea erorilor am scris functia check_error cara cauta raspunsul de
 succes in mesajul primit de la server, daca functia returneaza null inseamna ca e eroare.
-
-Avand suportul de laborator tema a fost foarte simpla!
